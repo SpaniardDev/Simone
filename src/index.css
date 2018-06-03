@@ -1,0 +1,51 @@
+html {
+  height            : 100%;
+  width             : 100%;
+}
+
+body {
+  background        : #000;
+  color             : #eee;
+  margin            : 0;
+  padding           : 0;
+  font-family       : 'Bree Serif', sans-serif; 
+  height            : 100%;
+  width             : 100%;
+}
+
+footer {
+  position          : fixed;
+  bottom            : 0;
+  background        : #000;
+  color             : #eee;
+  height            : 3vh;
+  width             : 100%;
+  padding           : .2rem;
+  text-align        : center;
+  font-size         : .8rem;
+  z-index           : 1000;
+}
+
+  footer a:link, footer a:visited {
+    text-decoration : none;
+    color           : #eee;
+    transition      : color 0.5s ease;
+  }
+
+  footer a:hover {
+    color           : #b10;
+  }
+
+  footer .love {
+    color           : #b10;
+    font-size       : 1rem;
+    vertical-align  : baseline;
+  }
+
+@media (max-height: 400px) {
+  footer {
+    height          : 5vh;
+    padding         : .2rem;
+  }
+}
+

@@ -1,0 +1,42 @@
+.Pad {
+  box-sizing      : border-box;
+  display         : inline-block;
+  height          : 100vh;
+  width           : 25vw;
+  transition      : background 100ms ease;
+}
+
+  .Pad#green {
+    background    : #00a800;
+    clip-path     : polygon(10% 40%, 90% 20%, 100% 90%, 20% 80%);
+  }
+    .Pad#green.active {
+      background  : #00e000;
+    }
+  
+  .Pad#red {
+    background    : #a80000;
+    clip-path     : polygon(0% 10%, 100% 40%, 90% 95%, 10% 80%);
+  }
+
+    .Pad#red.active {
+      background  : #e00000;
+    }
+  
+  .Pad#yellow {
+    background    : #a8a800;
+    clip-path     : polygon(10% 30%, 100% 10%, 90% 80%, 0% 95%);
+  }
+
+    .Pad#yellow.active {
+      background  : #e0e000;
+    }
+  
+  .Pad#blue {
+    background    : #0000a8;
+    clip-path     : polygon(10% 20%, 90% 30%, 70% 80%, 0% 95%);
+  }
+  
+    .Pad#blue.active {
+      background  : #0000e0;
+    }

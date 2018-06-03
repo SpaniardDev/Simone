@@ -1,0 +1,43 @@
+.Header {
+  box-sizing          : border-box;
+  position            : fixed;
+  top                 : 0;
+  width               : 100%;
+  margin              : 0;
+  padding             : 1rem;
+  z-index             : 990;
+  display             : flex;
+  flex-direction      : column;
+  justify-content     : center;
+  align-items         : center;
+  text-align          : center;
+}
+
+  .Header .logo {
+    margin            : 0;
+    padding           : 0;
+    font-size         : 3rem;
+  }
+
+  .Header .display {
+    margin            : 0;
+    font-size         : 1.4rem; 
+  }
+
+  .Header .counter {
+    clip-path         : polygon(0% 0%, 100% 0%, 90% 30%, 100% 100%, 0% 100%, 10% 70%);
+    background        : #eee;
+    color             : #000;
+    margin            : 0;
+    padding           : .1rem 3.5rem;
+    transition        : opacity 500ms ease; 
+  }
+
+    .Header .counter span {
+      margin          : 0;
+      font-size       : 1.4rem;
+    }
+
+    .Header .counter.hidden {
+      opacity         : 0;
+    }
