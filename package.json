@@ -2,7 +2,7 @@
   "name": "simon-game",
   "version": "0.1.0",
   "description": "A project made for the FreeCodeCamp certification",
-  "homepage": "https://spaniarddev.github.io/simone/",
+  "homepage": "https://spaniarddev.github.io/simone-game/",
   "dependencies": {
     "gh-pages": "^1.2.0",
     "react": "^16.3.2",
